@@ -1,0 +1,43 @@
+venv/
+venv/
+env/
+ENV/
+
+# Ignore Python virtual environment
+venv/
+ENV/
+env/
+*.pyc
+__pycache__/
+
+# Ignore IDE settings & logs
+.vscode/
+.idea/
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter notebooks cache (optional)
+.ipynb_checkpoints/
+
+# Ignore large model files and binaries
+*.h5
+*.pkl
+*.ckpt
+*.joblib
+*.pb
+*.dll
+*.so
+*.pyd
+
+# Ignore dataset folders & output directories (customize as needed)
+data/
+datasets/
+output/
+results/
+
+train/
+test/
+
